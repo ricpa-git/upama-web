@@ -783,8 +783,11 @@ a.dato__val:hover { color: var(--red); }
 @media (max-width: 800px) {
   .section { padding: 64px 0; }
 
-  .hero__inner { grid-template-columns: 1fr; }
-  .hero__right { display: none; }
+  .hero__inner { grid-template-columns: 1fr; padding-bottom: 48px; }
+  .hero__right { display: flex; padding-bottom: 40px; }
+  .hero__img { height: 220px; }
+  .hero__stats { display: none; }
+  .hero__ctas { margin-bottom: 8px; }
 
   .section__intro { grid-template-columns: 1fr; gap: 20px; }
 
