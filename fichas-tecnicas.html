@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fichas técnicas — Upama</title>
+  <meta name="description" content="Documentación técnica y comercial de los cierres metálicos y puertas automáticas Upama. Fichas técnicas, catálogos y especificaciones en PDF." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="fichas.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="Upama" class="logo__img" />
+      </a>
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="fichas-tecnicas.html">Fichas técnicas</a>
+        <a href="grupo-upama.html">Grupo Upama</a>
+        <a href="index.html#contacto" class="btn btn--red nav__mobile-cta">Contacta con nosotros</a>
+      </nav>
+      <div class="nav__right">
+        <a href="tel:+34916423219" class="nav__tel">916 423 219</a>
+        <a href="index.html#contacto" class="btn btn--red">Contacta con nosotros</a>
+      </div>
+      <button class="nav__burger" aria-label="Menú" onclick="this.parentElement.parentElement.classList.toggle('nav--open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ENCABEZADO -->
+  <section class="fichas-hero">
+    <div class="container">
+      <p class="label label--red">Documentación técnica</p>
+      <h1>Fichas técnicas</h1>
+      <p class="fichas-hero__desc">Descarga las especificaciones, dimensiones y características de cada modelo. Disponibles en PDF para arquitectos, instaladores y clientes.</p>
+    </div>
+  </section>
+
+  <!-- CONTENIDO -->
+  <main class="fichas-main">
+    <div class="container fichas-layout">
+
+      <!-- SIDEBAR -->
+      <aside class="fichas-sidebar">
+        <p class="sidebar__label">Categorías</p>
+        <nav class="sidebar__nav">
+          <a href="#catalogos"  class="sidebar__link sidebar__link--active">Catálogos generales</a>
+          <a href="#linea-p77"  class="sidebar__link">Línea P77</a>
+          <a href="#linea-dp"   class="sidebar__link">Línea DP — Doble pared</a>
+          <a href="#linea-up"   class="sidebar__link">Línea UP — Pared única</a>
+          <a href="#linea-p120" class="sidebar__link">Línea P120</a>
+        </nav>
+        <div class="sidebar__contact">
+          <p>¿Necesitas más información?</p>
+          <a href="index.html#contacto" class="btn btn--outline">Contactar</a>
+        </div>
+      </aside>
+
+      <!-- FICHAS -->
+      <div class="fichas-content">
+
+        <!-- CATÁLOGOS GENERALES -->
+        <section class="fichas-group" id="catalogos">
+          <h2 class="fichas-group__title">Catálogos generales</h2>
+          <p class="fichas-group__desc">Documentos de referencia con la gama completa de productos, acabados y especificaciones.</p>
+          <div class="fichas-grid">
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect x="6" y="2" width="20" height="28" rx="2" fill="#f0f0ee" stroke="#e2e2de" stroke-width="1.5"/><path d="M10 10h12M10 14h12M10 18h8" stroke="#bbb" stroke-width="1.5" stroke-linecap="round"/><path d="M20 2v6h6" fill="#e2e2de"/></svg>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Catálogo comercial</span>
+                <h3 class="ficha-card__name">Catálogo Comercial 2021</h3>
+                <p class="ficha-card__desc">Modelos, usos, acabados y configuraciones disponibles en toda la gama Upama.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/CATALOGO COMERCIAL UPAMA 2021.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect x="6" y="2" width="20" height="28" rx="2" fill="#f0f0ee" stroke="#e2e2de" stroke-width="1.5"/><path d="M10 10h12M10 14h12M10 18h8" stroke="#bbb" stroke-width="1.5" stroke-linecap="round"/><path d="M20 2v6h6" fill="#e2e2de"/></svg>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Catálogo técnico</span>
+                <h3 class="ficha-card__name">Catálogo Técnico 2010</h3>
+                <p class="ficha-card__desc">Espesores, dimensiones máximas, tolerancias y especificaciones de materiales.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/Catalogo Tecnico 2010.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon">
+                <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><rect x="6" y="2" width="20" height="28" rx="2" fill="#f0f0ee" stroke="#e2e2de" stroke-width="1.5"/><path d="M10 10h12M10 14h12M10 18h8" stroke="#bbb" stroke-width="1.5" stroke-linecap="round"/><path d="M20 2v6h6" fill="#e2e2de"/></svg>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Folleto técnico</span>
+                <h3 class="ficha-card__name">Folleto Ficha Técnica Upama</h3>
+                <p class="ficha-card__desc">Resumen técnico general de la gama de cierres y puertas automáticas Upama.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FOLLETO_FICHA TÉCNICA_UPAMA.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- LÍNEA P77 -->
+        <section class="fichas-group" id="linea-p77">
+          <h2 class="fichas-group__title">Línea P77</h2>
+          <p class="fichas-group__desc">Cierre enrollable P77 Silence. Disponible en versión manual y motorizada.</p>
+          <div class="fichas-grid">
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">P77<br/><small>Silence</small></span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha comercial</span>
+                <h3 class="ficha-card__name">P77 Silence — Comercial</h3>
+                <p class="ficha-card__desc">Acabados, colores y configuraciones disponibles para el modelo P77 Silence.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FICHA P-77 SILENCE COMERCIAL.-2.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">P77</span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">P77 — Técnica</h3>
+                <p class="ficha-card__desc">Dimensiones, pesos, espesores de lama y especificaciones de instalación.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FICHA P-77.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">P77<br/><small>Conjunto</small></span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">P77 — Conjunto</h3>
+                <p class="ficha-card__desc">Documentación completa del conjunto: motor, guías, cajón y accesorios.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/ficha P-77 conjunto.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- LÍNEA DP -->
+        <section class="fichas-group" id="linea-dp">
+          <h2 class="fichas-group__title">Línea DP — Doble pared</h2>
+          <p class="fichas-group__desc">Cierres enrollables de doble pared con mayor aislamiento térmico y acústico.</p>
+          <div class="fichas-grid">
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">DP100</span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">DP100</h3>
+                <p class="ficha-card__desc">Puerta enrollable de doble pared. Especificaciones técnicas y dimensiones.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FICHA DP-100.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">DP105<br/><small>Thermic</small></span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">DP105 Thermic</h3>
+                <p class="ficha-card__desc">Cierre enrollable motorizado con aislamiento térmico. Especificaciones técnicas.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FOLLETO_FICHA TÉCNICA_UPAMA.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">DP105<br/><small>Thermic A</small></span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">DP105 Thermic A</h3>
+                <p class="ficha-card__desc">Variante Thermic A con mayor coeficiente de aislamiento. Máximo rendimiento térmico.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/Ficha Upama DP105 Thermic A-1.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">DP111</span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">DP111</h3>
+                <p class="ficha-card__desc">Puerta enrollable de doble pared, modelo 111. Especificaciones completas.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FICHA DP-111.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- LÍNEA UP -->
+        <section class="fichas-group" id="linea-up">
+          <h2 class="fichas-group__title">Línea UP — Pared única</h2>
+          <p class="fichas-group__desc">Cierres enrollables de pared única para usos comerciales, industriales y residenciales.</p>
+          <div class="fichas-grid">
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">UP100</span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">UP100</h3>
+                <p class="ficha-card__desc">Puerta enrollable de pared única. Dimensiones y materiales disponibles.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FICHA UP-100.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">UP111</span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha comercial</span>
+                <h3 class="ficha-card__name">UP111 — Comercial</h3>
+                <p class="ficha-card__desc">Cierre enrollable UP111 sin motorización. Acabados y configuraciones.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/fichas comerciales  UP-111 M.foto sin motorización-1.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">UP125<br/><small>Autoblocante</small></span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha comercial + técnica</span>
+                <h3 class="ficha-card__name">UP125 Autoblocante</h3>
+                <p class="ficha-card__desc">Modelo autoblocante de pared única. Mayor seguridad en posición de cierre.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/ficha UP-125 autoblocante.Foto sin motorización.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Sin motorización
+                </a>
+                <a href="fichas/FICHA UP-125-1.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Técnica
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- LÍNEA P120 -->
+        <section class="fichas-group" id="linea-p120">
+          <h2 class="fichas-group__title">Línea P120</h2>
+          <p class="fichas-group__desc">Puerta enrollable estándar en versión individual y conjunto completo.</p>
+          <div class="fichas-grid">
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">P120</span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">P120</h3>
+                <p class="ficha-card__desc">Puerta enrollable P120. Especificaciones de instalación y dimensiones.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/FICHA P-120-1.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+            <div class="ficha-card">
+              <div class="ficha-card__icon ficha-card__icon--blue">
+                <span class="ficha-card__model">P120<br/><small>Conjunto</small></span>
+              </div>
+              <div class="ficha-card__body">
+                <span class="ficha-card__type">Ficha técnica</span>
+                <h3 class="ficha-card__name">P120 — Conjunto</h3>
+                <p class="ficha-card__desc">Documentación del conjunto completo: motor, guías, cajón y accesorios de instalación.</p>
+              </div>
+              <div class="ficha-card__actions">
+                <a href="fichas/ficha P-120 conjunto.pdf" class="btn btn--red" target="_blank" rel="noopener">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 15V3m0 12l-4-4m4 4l4-4M2 17l.621 2.485A2 2 0 004.561 21h14.878a2 2 0 001.94-1.515L22 17"/></svg>
+                  Descargar PDF
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+      </div><!-- /fichas-content -->
+    </div><!-- /fichas-layout -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <a href="index.html" class="logo">
+          <img src="logo.png" alt="Upama" class="logo__img logo__img--footer" />
+        </a>
+        <nav class="footer__nav">
+          <a href="index.html#productos">Productos</a>
+          <a href="index.html#sectores">Sectores</a>
+          <a href="index.html#nosotros">Nosotros</a>
+          <a href="index.html#contacto">Contacto</a>
+        </nav>
+        <div class="footer__contact">
+          <a href="tel:+34916423219">916 423 219</a>
+          <a href="mailto:upama@upama.es">upama@upama.es</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Upama, S.A. Av. de la Cantueña, 13 · Fuenlabrada, Madrid</p>
+        <div class="footer__legal">
+          <a href="aviso-legal.html">Aviso legal</a>
+          <a href="politica-de-privacidad.html">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const groups  = document.querySelectorAll('.fichas-group');
+    const links   = document.querySelectorAll('.sidebar__link');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.classList.remove('sidebar__link--active'));
+          const active = document.querySelector(`.sidebar__link[href="#${e.target.id}"]`);
+          if (active) active.classList.add('sidebar__link--active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    groups.forEach(g => observer.observe(g));
+  </script>
+
+</body>
+</html>

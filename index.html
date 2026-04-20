@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upama — Cierres metálicos y puertas automáticas desde 1984</title>
+  <meta name="description" content="40 años fabricando e instalando cierres metálicos enrollables y puertas automáticas en Madrid. Servicio de urgencias 24 h. Clientes: Apple, Movistar, H&M." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo">
+        <img src="logo.png" alt="Upama" class="logo__img" />
+      </a>
+      <nav class="nav__links" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="fichas-tecnicas.html">Fichas técnicas</a>
+        <a href="grupo-upama.html">Grupo Upama</a>
+        <a href="index.html#contacto" class="btn btn--red nav__mobile-cta">Contacta con nosotros</a>
+      </nav>
+      <div class="nav__right">
+        <a href="tel:+34916423219" class="nav__tel">916 423 219</a>
+        <a href="index.html#contacto" class="btn btn--red">Contacta con nosotros</a>
+      </div>
+      <button class="nav__burger" aria-label="Menú" onclick="this.parentElement.parentElement.classList.toggle('nav--open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__left">
+        <p class="hero__since">Fabricando desde 1984</p>
+        <h1>Cierres metálicos<br />y puertas<br /><em>automáticas</em></h1>
+        <p class="hero__desc">Fabricación, distribución e instalación en Madrid y toda España. 40 años de experiencia avalan cada proyecto, desde una persiana de garaje hasta la automatización de una nave industrial.</p>
+        <div class="hero__ctas">
+          <a href="#contacto" class="btn btn--red btn--lg">Solicitar visita gratuita</a>
+          <a href="#productos" class="btn btn--ghost btn--lg">Ver productos</a>
+        </div>
+      </div>
+      <div class="hero__right">
+        <div class="hero__img-wrap">
+          <img src="images/hero.webp" alt="Puerta enrollable industrial Upama" class="hero__img" />
+          <div class="hero__badge-floating">
+            <strong>Urgencias</strong>
+            <span>24 horas · 365 días</span>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <strong>40</strong>
+            <span>años de experiencia</span>
+          </div>
+          <div class="hero__stat">
+            <strong>24 h</strong>
+            <span>servicio de urgencias</span>
+          </div>
+          <div class="hero__stat">
+            <strong>12 m</strong>
+            <span>ancho máximo de fabricación</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTES -->
+  <section class="clientes">
+    <div class="clientes__label-wrap">
+      <p class="clientes__label">Confían en nosotros</p>
+    </div>
+    <div class="clientes__ticker-wrap">
+      <div class="clientes__track">
+        <!-- set 1 -->
+        <img class="cliente-logo" src="images/apple.webp"    alt="Apple" />
+        <img class="cliente-logo" src="images/movistar.webp" alt="Movistar" />
+        <img class="cliente-logo" src="images/hm.webp"       alt="H&M" />
+        <img class="cliente-logo" src="images/mcdonalds.webp" alt="McDonald's" />
+        <!-- set 2 (loop) -->
+        <img class="cliente-logo" src="images/apple.webp"    alt="" aria-hidden="true" />
+        <img class="cliente-logo" src="images/movistar.webp" alt="" aria-hidden="true" />
+        <img class="cliente-logo" src="images/hm.webp"       alt="" aria-hidden="true" />
+        <img class="cliente-logo" src="images/mcdonalds.webp" alt="" aria-hidden="true" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section class="section" id="productos">
+    <div class="container">
+      <div class="section__intro">
+        <div class="section__intro-left">
+          <span class="label label--red">Productos</span>
+          <h2>Fabricación propia.<br />Instalación directa.</h2>
+        </div>
+        <div class="section__intro-right">
+          <p>Fabricamos y distribuimos nuestras propias soluciones de cierre. Sin intermediarios, con control total del proceso y tiempos de entrega ajustados a tus plazos.</p>
+        </div>
+      </div>
+
+      <div class="productos__grid">
+
+        <article class="producto">
+          <div class="producto__img producto__img--enrollable" role="img" aria-label="Puertas enrollables">
+            <div class="producto__img-inner">
+              <div class="producto__lamas">
+                <div class="lama"></div><div class="lama"></div><div class="lama"></div>
+                <div class="lama"></div><div class="lama"></div><div class="lama"></div>
+              </div>
+            </div>
+          </div>
+          <div class="producto__body">
+            <span class="label">Cierres enrollables</span>
+            <h3>Acero, inoxidable o aluminio. Hasta 12 metros de ancho.</h3>
+            <p>Fabricados en acero galvanizado, inoxidable o aluminio con lamas de 0,7 mm a 2 mm de espesor. Sistema COMPACT ROLL para instalaciones con poco espacio en techo. Cerraduras en lama de refuerzo para máxima seguridad.</p>
+            <ul class="producto__specs">
+              <li>Anchura máxima: 12 m</li>
+              <li>Acero, inoxidable o aluminio</li>
+              <li>Manual o motorizado</li>
+              <li>Sistema COMPACT ROLL disponible</li>
+            </ul>
+            <a href="#contacto" class="btn btn--outline">Consultar este producto</a>
+          </div>
+        </article>
+
+        <article class="producto producto--reverse">
+          <div class="producto__img producto__img--automatica" role="img" aria-label="Puertas automáticas">
+            <div class="producto__img-inner">
+              <div class="puerta-auto">
+                <div class="puerta-panel pa-l"></div>
+                <div class="puerta-panel pa-r"></div>
+              </div>
+            </div>
+          </div>
+          <div class="producto__body">
+            <span class="label">Puertas automáticas</span>
+            <h3>Peatonales, seccionales y rápidas para cualquier uso.</h3>
+            <p>Soluciones automáticas para acceso peatonal en comercios y oficinas, puertas seccionales para garajes e industria, y puertas rápidas para instalaciones con tráfico intenso. Altos estándares de seguridad en todas las gamas.</p>
+            <ul class="producto__specs">
+              <li>Correderas peatonales</li>
+              <li>Seccionales para garajes e industria</li>
+              <li>Puertas rápidas industriales</li>
+              <li>Sensores de seguridad certificados</li>
+            </ul>
+            <a href="#contacto" class="btn btn--outline">Consultar este producto</a>
+          </div>
+        </article>
+
+        <article class="producto">
+          <div class="producto__img producto__img--cristal" role="img" aria-label="Puertas correderas de cristal">
+            <div class="producto__img-inner">
+              <div class="cristal-door">
+                <div class="cristal-panel"></div>
+                <div class="cristal-panel cristal-panel--2"></div>
+              </div>
+            </div>
+          </div>
+          <div class="producto__body">
+            <span class="label">Puertas de cristal</span>
+            <h3>Correderas de cristal en acabados y colores a medida.</h3>
+            <p>Puertas correderas de cristal para locales comerciales, oficinas y espacios de representación. Disponibles en una amplia gama de acabados, colores y configuraciones para adaptarse a cualquier proyecto de interiorismo o arquitectura.</p>
+            <ul class="producto__specs">
+              <li>Vidrio templado o laminado</li>
+              <li>Múltiples acabados disponibles</li>
+              <li>Manual o automática</li>
+              <li>A medida</li>
+            </ul>
+            <a href="#contacto" class="btn btn--outline">Consultar este producto</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTORES -->
+  <section class="sectores" id="sectores">
+    <div class="container">
+      <div class="sectores__head">
+        <span class="label label--white">Sectores de aplicación</span>
+        <h2>Instalamos donde otros no llegan.</h2>
+      </div>
+      <div class="sectores__list">
+        <div class="sector">
+          <span class="sector__num">01</span>
+          <div>
+            <strong>Comercial y retail</strong>
+            <p>Tiendas, centros comerciales, franquicias y locales en calle.</p>
+          </div>
+        </div>
+        <div class="sector">
+          <span class="sector__num">02</span>
+          <div>
+            <strong>Industrial y logístico</strong>
+            <p>Naves, almacenes, muelles de carga y descarga.</p>
+          </div>
+        </div>
+        <div class="sector">
+          <span class="sector__num">03</span>
+          <div>
+            <strong>Residencial y garajes</strong>
+            <p>Comunidades de vecinos, parkings y viviendas unifamiliares.</p>
+          </div>
+        </div>
+        <div class="sector">
+          <span class="sector__num">04</span>
+          <div>
+            <strong>Hostelería y oficinas</strong>
+            <p>Hoteles, restaurantes, sedes corporativas y edificios de oficinas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section" id="nosotros">
+    <div class="container nosotros">
+      <div class="nosotros__left">
+        <span class="label label--red">Quiénes somos</span>
+        <h2>40 años fabricando con la misma exigencia.</h2>
+        <p>Upama nació en 1984 en Madrid y desde entonces ha instalado miles de cierres y puertas automáticas en toda España. Fabricamos con acero de calidad, instalamos con nuestro propio equipo técnico y respondemos a cualquier avería en 24 horas.</p>
+        <p>Nuestra sede está en el Parque Empresarial La Cantueña, en Fuenlabrada, desde donde gestionamos cada proyecto de principio a fin.</p>
+        <div class="nosotros__datos">
+          <div class="nosotros__dato">
+            <strong>1984</strong>
+            <span>Año de fundación</span>
+          </div>
+          <div class="nosotros__dato">
+            <strong>Madrid</strong>
+            <span>Sede central</span>
+          </div>
+          <div class="nosotros__dato">
+            <strong>España</strong>
+            <span>Cobertura nacional</span>
+          </div>
+        </div>
+      </div>
+      <div class="nosotros__right">
+        <div class="garantias">
+          <div class="garantia">
+            <div class="garantia__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Fabricación propia</strong>
+              <p>Controlamos el proceso completo: material, fabricación, instalación y mantenimiento.</p>
+            </div>
+          </div>
+          <div class="garantia">
+            <div class="garantia__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Urgencias 24 h · 365 días</strong>
+              <p>Técnicos propios disponibles todos los días del año, incluyendo festivos.</p>
+            </div>
+          </div>
+          <div class="garantia">
+            <div class="garantia__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Equipo técnico propio</strong>
+              <p>Sin subcontratas. Los mismos técnicos que instalan son los que mantienen y reparan.</p>
+            </div>
+          </div>
+          <div class="garantia">
+            <div class="garantia__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Presupuesto sin coste</strong>
+              <p>Visita técnica y presupuesto detallado sin compromiso en menos de 24 horas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MANTENIMIENTO STRIP -->
+  <section class="manto">
+    <div class="container manto__inner">
+      <div class="manto__text">
+        <h3>Mantenimiento preventivo y correctivo</h3>
+        <p>Un contrato de mantenimiento con Upama garantiza el correcto funcionamiento de tus instalaciones y evita averías costosas. Revisiones periódicas, partes de trabajo documentadas y respuesta rápida ante cualquier incidencia.</p>
+      </div>
+      <a href="#contacto" class="btn btn--white">Consultar contrato de mantenimiento</a>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section--light" id="contacto">
+    <div class="container contacto">
+      <div class="contacto__left">
+        <span class="label label--red">Contacto</span>
+        <h2>Cuéntanos tu proyecto.</h2>
+        <p>Te respondemos en menos de 24 horas con una valoración inicial. Si prefieres hablar directamente, llámanos.</p>
+
+        <div class="contacto__datos">
+          <div class="contacto__dato">
+            <span class="dato__label">Teléfono</span>
+            <a href="tel:+34902153595" class="dato__val">902 153 595</a>
+            <a href="tel:+34916423219" class="dato__val">916 423 219</a>
+          </div>
+          <div class="contacto__dato">
+            <span class="dato__label">Email</span>
+            <a href="mailto:upama@upama.es" class="dato__val">upama@upama.es</a>
+          </div>
+          <div class="contacto__dato">
+            <span class="dato__label">Dirección</span>
+            <span class="dato__val">Av. de la Cantueña, 13<br />Parque Empresarial La Cantueña<br />Fuenlabrada, Madrid</span>
+          </div>
+          <div class="contacto__dato">
+            <span class="dato__label">Horario</span>
+            <span class="dato__val">Lunes a viernes, 8:00–18:00<br />Urgencias: 24 h · 365 días</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="form" onsubmit="return false" novalidate>
+        <div class="form__row">
+          <div class="form__field">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" placeholder="Tu nombre" required />
+          </div>
+          <div class="form__field">
+            <label for="tel">Teléfono</label>
+            <input id="tel" type="tel" placeholder="600 000 000" required />
+          </div>
+        </div>
+        <div class="form__field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="nombre@empresa.es" required />
+        </div>
+        <div class="form__field">
+          <label for="empresa">Empresa (opcional)</label>
+          <input id="empresa" type="text" placeholder="Nombre de tu empresa" />
+        </div>
+        <div class="form__field">
+          <label for="tipo">Tipo de producto o servicio</label>
+          <select id="tipo">
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option>Cierre enrollable</option>
+            <option>Puerta automática peatonal</option>
+            <option>Puerta seccional o rápida</option>
+            <option>Puerta de cristal</option>
+            <option>Mantenimiento o revisión</option>
+            <option>Urgencia / avería</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="form__field">
+          <label for="mensaje">Descripción del proyecto</label>
+          <textarea id="mensaje" rows="4" placeholder="Describe brevemente qué necesitas: tipo de instalación, dimensiones aproximadas, urgencia…"></textarea>
+        </div>
+        <button type="submit" class="btn btn--red btn--full">Enviar solicitud</button>
+        <p class="form__legal">Al enviar aceptas nuestra <a href="politica-de-privacidad.html">política de privacidad</a>. No compartimos tus datos con terceros.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__top">
+        <a href="#top" class="logo">
+          <img src="logo.png" alt="Upama" class="logo__img logo__img--footer" />
+        </a>
+        <nav class="footer__nav" aria-label="Pie de página">
+          <a href="#productos">Productos</a>
+          <a href="#sectores">Sectores</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="footer__contact">
+          <a href="tel:+34916423219">916 423 219</a>
+          <a href="mailto:upama@upama.es">upama@upama.es</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 Upama, S.A. Av. de la Cantueña, 13 · Fuenlabrada, Madrid</p>
+        <div class="footer__legal">
+          <a href="aviso-legal.html">Aviso legal</a>
+          <a href="politica-de-privacidad.html">Privacidad</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
